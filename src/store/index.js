@@ -5,11 +5,14 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    personalData:{
+      name: "",
+      age: "",
+    },
+    children: [{
+      id: Date.now(),
+      name:"",
+      age:""
+    }],
   },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  }
 })
